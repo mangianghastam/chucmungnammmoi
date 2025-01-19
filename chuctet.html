@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc Mừng Năm Mới</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffecd1;
+    color: #d35400;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #c0392b;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d35400;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #27ae60;
+}
+p1{
+    margin: 0px 50px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+}
+p1 a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+p1:hover{
+    background-color: red;
+}
+p1 a:hover{
+    color: yellow;
+}
+.lang a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 5px;
+}
+.lang{
+    color: black;
+}
+.lang a:hover{
+    color: blue;
+}
+
+</style>
+<body>
+    <div class="container">
+        <h1>Chúc Mừng Năm Mới!</h1>
+        <button onclick="showMessage()">Nhận Lời Chúc</button><br><br>
+        <p id="message" style="display:none;">Cầu chúc một năm mới nhiều sức khỏe, hạnh phúc và bình an!</p><br><br><br><br><br>
+        <p1><a href="tv1.html">Bài thơ số 1</a></p1><p1><a href="tv2.html">Bài thơ số 2</a></p1><p1><a href="tv3.html">Bài thơ số 3</a></p1><p1><a href="tv4.html">Bài thơ số 4</a></p1><br><br><br>
+        <!-- <br><br><audio controls src="Tết Tết Tết Tết Đến Rồi, Xuân Xuân Ơi Xuân Đã Về - Nhạc Tết 2025 Remix Mới Nhất, Nhạc Xuân Ất Tỵ.mp3"></audio> -->
+        <br><br><br><br><br><hr>
+        <div class="lang"><a href="english.html">English </a>|<a href="فارسی.html"> فارسی</a></div>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById('message').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
